@@ -1,0 +1,71 @@
+.titulo {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.containerTodoApp {
+  width: 400px;
+  max-width: 90vw;
+}
+
+.formularioTarea {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.formularioTarea input {
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.formularioTarea button {
+  width: auto;
+  padding: 10px 16px;
+  border-radius: 4px;
+  background-color: #a970ff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.listaTareas {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.listaTareas li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 12px 16px;
+  border-radius: 6px;
+}
+
+.listaTareas li span {
+  cursor: pointer;
+  flex: 1;
+  word-break: break-word;
+}
+
+.listaTareas li.completada span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.listaTareas li button {
+  background-color: transparent;
+  color: #f5f5f5;
+  width: 30px;
+  margin-right: 0;
+}
+
+.listaTareas li button:hover {
+  color: #ff5c5c;
+}
